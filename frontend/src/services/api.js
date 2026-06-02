@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://127.0.0.1:5050/api",
+  baseURL: "https://ai-interview-coach-5owe.onrender.com/api",
 });
 
 export default API;
